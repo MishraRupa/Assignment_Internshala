@@ -1,0 +1,85 @@
+.navbar-nav{
+    margin-left: 15%;
+
+}
+.navbar{
+    height: 5vw;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    /* color: whitesmoke; */ 
+}
+.btn-outline-primary {
+    border: 1px solid rgb(94, 76, 224);;
+    background-color: rgb(94, 76, 224);
+  }
+  .btn-outline-primary:hover {
+    background-color: rgb(94, 76, 224);
+    color: white;
+  }
+.d-inline-block{
+  margin-left: 69px;
+    height: 4vh;
+}
+.nav-link:hover {
+    color: rgb(94, 76, 224) !important;
+}
+.background-section {
+  margin-left: 11%;
+  width: 80vw;
+  height: 30vh;
+  background: url('https://cdn.prod.website-files.com/623ae64112adcf772da9687e/66b7a9b742a15fc71db053f3_pv%20team%20cropped.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+.background-section img {
+  display: none; /* Hide img tag since we're using background-image */
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.uploaded-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px black(0, 0, 0, 0.2);
+}
+.video-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.video {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px black(0, 0, 0, 0.2);
+}
+.bordered {
+  border: 3px solid #007bff; /* Blue border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Space inside the border */
+  display: inline-block;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
